@@ -11,8 +11,7 @@ cache: node_modules  # кеширование
 install:
   - npm install  # команда установки зависимостей
 
-build: 
-  - '1.0.{build}' # отключаем встроенную в appveyor систему сборки
+build: off  # отключаем встроенную в appveyor систему сборки
 
 build_script:
   - npm run build   # команда сборки
