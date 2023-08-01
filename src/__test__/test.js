@@ -1,10 +1,5 @@
 import healthStatus from '../healthAppiarance';
 
-test('first test', () => {
-  const result = 4;
-  expect(result).toBe(4);
-});
-
 test('health appearance critical test', () => {
   const person = {
     name: 'Petya',
